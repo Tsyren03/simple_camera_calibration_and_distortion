@@ -7,7 +7,7 @@ This repository contains a Python implementation that uses OpenCV to perform abs
 The camera's intrinsic parameters were extracted by processing a video of an A4-sized chessboard pattern (12x8 internal vertices, 22mm square size) attached to a completely flat surface. 
 
 ### Corner Detection Demo
-![Corner Detection Demo]
+
 ![corner_demo](https://github.com/user-attachments/assets/35b68ac4-21ea-4b77-b154-7c778efb97d1)
 
 * **RMSE (Root Mean Square Error):** `0.489260`
@@ -22,5 +22,4 @@ The camera's intrinsic parameters were extracted by processing a video of an A4-
 ## 3. Lens Distortion Correction Demo
 Using the calculated intrinsic parameters and distortion coefficients, the raw video frames were remapped to remove the radial and tangential distortion introduced by the camera lens. The side-by-side comparison below demonstrates the successful geometric flattening of the image.
 
-![Distortion Correction Result]
 ![demo_result](https://github.com/user-attachments/assets/420637fd-147b-4097-9e28-ccb41cf9641b)
